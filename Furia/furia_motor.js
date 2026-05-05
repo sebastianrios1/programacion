@@ -24,7 +24,7 @@ function renderShop(){
         <div class="info-compra">
             <p class="nombre-art">${producto.art}</p>
             <p class="precio-art">${producto.precio}</p>
-            <button class"btn-comprar" onclick="procesarCompra('${producto.art}')">Comprar Ahora</button>
+            <button class="btn-comprar" onclick="procesarCompra('${producto.art}')">Comprar Ahora</button>
             </div>
         `;
         divLista.appendChild(card);   

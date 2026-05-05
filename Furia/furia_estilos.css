@@ -40,7 +40,7 @@ h1 {
     border-radius: 10px;
     text-align: center;
     border: 1px solid #333;
-    
+    text-decoration: none;
 }
 
 .merch-preview {
@@ -109,17 +109,48 @@ h1 {
 }
 
 .btn-comprar {
-    background-color: #2e7d32;
+    background-color: var(--furia-red);
     color: white;
     border: none;
-    padding: 12px;
-    width: 100%;
-    border-radius: 15px;
+    padding: 12px 24px;      
+    display: inline-block;   
+    border-radius: 25px;     
     font-weight: bold;
+    font-size: 1rem;
     cursor: pointer;
-    transition: transform 0.2s;
+    margin-top: 12px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+}
+
+.btn-comprar:hover {
+    background-color: #b30000; 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
 }
 
 .btn-comprar:active {
-    transform: scale(0.95);
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+.btn-nav {
+    background-color: var(--furia-red);
+    color: white;
+    border: none;
+    padding: 18px;
+    width: 100%;           
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.link-tienda {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+
