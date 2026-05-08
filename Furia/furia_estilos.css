@@ -50,7 +50,7 @@ h1 {
  margin-bottom: 15px;
 }
 
--item-tienda {
+.item-tienda {
     background: white;
     color: black;
     padding: 15px;
@@ -152,5 +152,19 @@ h1 {
     display: block;
     width: 100%;
 }
+
+.btn-card {
+     background-color: var(--furia-red);
+    color: white;
+    border: none;
+    padding: 18px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: .9rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
 
 
